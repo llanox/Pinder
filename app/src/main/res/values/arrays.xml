@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Colombia</item>
+        <item>Canada</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Otawa</item>
+        <item>Budapest</item>
+    </string-array>
+
+</resources>

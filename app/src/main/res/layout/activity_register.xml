@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="co.edu.eafit.mobile.android.activities.RegisterActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Fullname"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_fullname"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et_email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Mobile phone "
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/et_mobile_phone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_cities"
+
+        ></Spinner>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveProfile"
+        android:text="@string/lb_btn"
+        android:id="@+id/btn_save" />
+
+
+</LinearLayout>

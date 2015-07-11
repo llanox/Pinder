@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_vertical"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/users_groups_128"
+        android:layout_marginBottom="50dp"
+        />
+
+    <!--
+    Formulario de Login
+    -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Digite el usuario"
+        android:textSize="24sp"
+        android:fontFamily="arial"
+        android:id="@+id/et_user" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Ingrese el password"
+        android:fontFamily="arial"
+        android:textSize="24sp"
+        android:id="@+id/et_password" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/btn_login"
+        android:onClick="goToProfileView"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:onClick="goToRegisterView"
+        android:id="@+id/btn_signup" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:onClick="goToWeather"
+        android:id="@+id/btn_weather" />
+
+
+</LinearLayout>
